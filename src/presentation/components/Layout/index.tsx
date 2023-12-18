@@ -17,7 +17,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     <div className="flex h-full w-full bg-gray-50 dark:bg-blue-900">
       <Sidebar routes={routes} open={open} setOpen={setOpen} />
       {/* Navbar & Main Content */}
-      <div className="h-full w-full p-8 font-dm dark:bg-navy-900">
+      <div className="h-full w-full p-0 md:p-8 font-dm dark:bg-navy-900">
         {/* Main Content */}
         <main
           className={`mx-4  flex-none transition-all md:pr-2 xl:ml-[310px]`}
