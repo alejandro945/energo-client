@@ -9,7 +9,7 @@ import { RoutesType } from '@/core/types/Routes';
 export const SidebarLinks = (props: { routes: RoutesType[] }): JSX.Element => {
     const pathname = usePathname();
     const { routes } = props;
-    console.log('routes', routes);
+
     // verifies if routeName is the one active (in browser input)
     const activeRoute = useCallback(
         (routeName: string) => {
